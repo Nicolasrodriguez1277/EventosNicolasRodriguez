@@ -168,7 +168,7 @@ while (true) {
     let manoJugador2 = prompt(`${jugador2}, elige piedra, papel o tijeras:`).toLowerCase();
 
     if (manoJugador1 === manoJugador2) {
-        console.log("¡Empate! Se sigue jugando...");
+        console.log("Empate, se sigue jugando");
         continue;
     } else if ((manoJugador1 === 'piedra' && manoJugador2 === 'tijeras') ||
                (manoJugador1 === 'papel' && manoJugador2 === 'piedra') ||
